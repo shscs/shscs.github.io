@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sutherland High School Computer Science Club</title>
+  <meta name="description" content="The Computer Science Club at Sutherland High School. Learn to code, build projects, and explore technology with other students. All skill levels welcome.">
+  <meta name="theme-color" content="#09090b">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sutherland High School Computer Science Club">
+  <meta property="og:description" content="Learn to code, build projects, and explore technology together. All skill levels welcome.">
+  <meta property="og:url" content="https://shscs.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="SHSCS home">
+        <span class="brand-mark" aria-hidden="true">&gt;_</span>
+        <span class="brand-name">shscs</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#activities">Activities</a>
+        <a href="#join">Join</a>
+        <a class="btn btn-small" href="https://github.com/shscs" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="pill"><span class="dot" aria-hidden="true"></span>Sutherland High School</p>
+          <h1>Computer Science <span class="accent">Club</span></h1>
+          <p class="lead">A student community for people who like to build, break, and understand software. Every skill level is welcome &mdash; no experience required.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#join">Join the club</a>
+            <a class="btn btn-ghost" href="#activities">See what we do <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+
+        <div class="window" aria-hidden="true">
+          <div class="window-bar">
+            <span class="lights"><i></i><i></i><i></i></span>
+            <span class="filename">club.py</span>
+          </div>
+          <code class="code"><span class="line" style="--i:0"><span class="c"># Sutherland High School</span></span><span class="line" style="--i:1"><span class="k">class</span> <span class="f">ComputerScienceClub</span>:</span><span class="line" style="--i:2">    school = <span class="s">"Sutherland High School"</span></span><span class="line" style="--i:3">    experience_required = <span class="k">False</span></span><span class="line" style="--i:4"></span><span class="line" style="--i:5">    <span class="k">def</span> <span class="f">meet</span>(self):</span><span class="line" style="--i:6">        <span class="k">while</span> <span class="k">True</span>:</span><span class="line" style="--i:7">            <span class="f">learn</span>()</span><span class="line" style="--i:8">            <span class="f">build</span>()</span><span class="line" style="--i:9">            <span class="f">share</span>()<span class="cursor"></span></span></code>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container split">
+        <div class="reveal">
+          <p class="label">01 / About</p>
+          <h2>A place to build, break, and learn.</h2>
+        </div>
+        <div class="reveal">
+          <p class="body">The Computer Science Club is open to every student at Sutherland High School, whether you have written thousands of lines of code or none at all. We learn from each other, work on projects, and have fun along the way.</p>
+          <ul class="points">
+            <li><span class="tick" aria-hidden="true"></span>Beginner friendly</li>
+            <li><span class="tick" aria-hidden="true"></span>Learn by building</li>
+            <li><span class="tick" aria-hidden="true"></span>Open to every student</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities -->
+    <section class="section" id="activities">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="label">02 / Activities</p>
+          <h2>What we explore.</h2>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/></svg></div>
+            <h3>Workshops</h3>
+            <p>Hands-on sessions that take you from your first program to something you are proud to show off.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg></div>
+            <h3>Projects</h3>
+            <p>Team up to design and ship websites, apps, and games from idea to launch.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg></div>
+            <h3>Challenges</h3>
+            <p>Sharpen your problem-solving with puzzles and friendly coding competitions.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></div>
+            <h3>Web development</h3>
+            <p>Learn HTML, CSS, and JavaScript, then put your own work on the internet.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></div>
+            <h3>Security</h3>
+            <p>Understand how systems get attacked, and how to build things that hold up.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg></div>
+            <h3>Git &amp; open source</h3>
+            <p>Pick up the tools real developers use and learn to collaborate on shared code.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join -->
+    <section class="section" id="join">
+      <div class="container">
+        <div class="join reveal">
+          <div class="join-copy">
+            <p class="label">03 / Join</p>
+            <h2>Come build with us.</h2>
+            <p class="body">New to coding? You are exactly who this club is for. Check out our work on GitHub and keep an eye here for meeting details.</p>
+            <div class="cta">
+              <a class="btn btn-primary" href="https://github.com/shscs" target="_blank" rel="noopener">Follow us on GitHub</a>
+            </div>
+          </div>
+          <!-- Update these details when the meeting schedule is set. -->
+          <dl class="facts">
+            <div><dt>Who</dt><dd>Every student, every skill level</dd></div>
+            <div><dt>Where</dt><dd>Sutherland High School</dd></div>
+            <div><dt>When</dt><dd>Meeting times coming soon</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Sutherland High School Computer Science Club</p>
+      <a href="https://github.com/shscs" target="_blank" rel="noopener">github.com/shscs</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
