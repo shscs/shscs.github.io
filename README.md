@@ -2,13 +2,13 @@
 
 Website for the Sutherland High School Computer Science Club, live at https://shscs.github.io.
 
-Plain HTML, CSS, and JavaScript with no build step. Edit the files and push to `main`; GitHub Pages redeploys automatically.
+Plain HTML and CSS with a tiny bit of JavaScript and no build step. Edit the files and push to `main`; GitHub Pages redeploys automatically.
 
 | File | What it is |
 | --- | --- |
 | `index.html` | The page content (meeting details are in the "Join" section) |
-| `style.css` | All styling and the colour tokens at the top |
-| `script.js` | Scroll animations and the footer year |
+| `style.css` | All styling, with the colours and font at the top |
+| `script.js` | Updates the footer year |
 | `404.html` | Page shown for unknown URLs |
 
 To preview locally, run `python -m http.server` in this folder and open http://localhost:8000.
